@@ -1,24 +1,12 @@
 {
   "name": "credit-score-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple Express API for Salesforce callouts",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/radhakrishnan-git/credit-score-api.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/radhakrishnan-git/credit-score-api/issues"
-  },
-  "homepage": "https://github.com/radhakrishnan-git/credit-score-api#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^4.19.0"
   }
 }
